@@ -7,7 +7,7 @@ setup(
     description = 'An easy to use wrapper (OpenCV) for hand recognition ',
     author = 'Sourav Johar',
     author_email = 'johar.sourav97@gmail.com',
-    url = 'github package source url',
+    url = 'https://github.com/SouravJohar/handRecognition.git',
     download_url = 'https://github.com/SouravJohar/handRecognition/archive/1.0.tar.gz',
     keywords = ['OpenCV', 'Hand Recognition'],
     classifiers = [],
