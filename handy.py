@@ -55,7 +55,7 @@ def dist(a, b):
     return math.sqrt((a[0] - b[0])**2 + (b[1] - a[1])**2)
 
 def captureHistogram(source = None):
-    source = 0 if source is not None else source
+    source = 0 if source is None else source
     if source is not None and str(type(source)) != "<type 'int'>":
         raise ValueError("source: integer value expected")
     cap = cv2.VideoCapture(source)
