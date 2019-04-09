@@ -1,5 +1,5 @@
 # handy
-An easy to use wrapper for hand recognition, made using OpenCV.
+An easy to use wrapper for hand recognition, made using OpenCV 4.
 
 ![Alt Text](sample.gif)
 
@@ -36,11 +36,13 @@ $ python test.py
 ```
 2. When the program starts, it'll pop open a web cam feed and you have to place a part of your hand in the rectangle shown and press the key 'a' to calibrate the system with your skin color and the detection process will start.
 
+## Note
+Please use OpenCV version 4 to use Handy.
 
 ## Documentation
 I didn't want to make a full, proper documentation. 😅
 However, `test.py` contains all the functions and their usage.
 
 ## Purpose
-The purpose of this project was to detect hands in images/videos without using Machine/Deep Learning. So, this has been done using only Image Processing, and it is much faster than ML/DL solutions on a normal system. However, it is not as as accurate.
+The purpose of this project was to detect hands in images/videos without using Machine/Deep Learning. So, this has been done using only Image Processing, and it is much faster than ML/DL solutions on a normal system. However, it is not as as accurate (backgrounds with similar color as that of skin can fool the detector).
 Also note that, this isn't really a "Hand detector". It is just an Object Detector, using color. You can play around and modify the code to detect other objects as well, pretty easily.
