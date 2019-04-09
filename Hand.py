@@ -14,7 +14,7 @@ class Hand:
         self.fingertips = self.extract_fingertips()
 
     def draw_outline(self, min_area=10000, color=(0, 255, 0), thickness=2):
-        image, contours, _ = cv2.findContours(
+        contours, _ = cv2.findContours(
             self.binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
         palm_area = 0
         flag = None
