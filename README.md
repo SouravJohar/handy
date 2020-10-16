@@ -1,6 +1,8 @@
 # handy
 An easy to use wrapper for hand recognition, made using OpenCV 4.
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=SouravJohar.visitor-badge)
+
 A gesture controlled media player I made using handy: https://www.youtube.com/watch?v=-_9WFzgI7ak
 
 ![Alt Text](sample.gif)
